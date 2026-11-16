@@ -40,6 +40,7 @@ such as food type, location, and registration requirements, so that I can quickl
 to my preferences.
 
 ### User Story 2
+As a UofT student, I want to set my notification preferences in advance and receive an in-app notification with the event’s information when a newly published free food event matches my saved preferences, so that I do not miss relevant free food opportunities.
 
 ### User Story 3
 
@@ -74,6 +75,34 @@ Alternative Flows:
 
 
 ### Use Case 2
+1. The student opens the notification page.
+
+2. The system shows the available options and the user’s current preferences (if any).
+   
+3. The user selects their preference.
+
+4. The user asks to save the preferences.
+  
+5. The system saves the preferences and confirms to the user that they are saved.
+
+6. Later, a new free food event is published. The system checks the event against the saved preferences of the user.
+
+7. The system adds an unread notification with the event’s information to the notification the user.
+
+8. The user sees the new notification in their notifications list.
+
+
+Alternative Flows:
+
+4a. The user leaves without saving the preferences.
+The system keeps the previous preferences unchanged.
+New events are still checked against the previous preferences, and the use case continues at step 6.
+
+
+6a. The user has no saved preferences.
+The system does not match the event with the user, so no notification is added.
+The user’s notification list stays empty, and the use case ends.
+
 
 ### Use Case 3
 
@@ -86,7 +115,7 @@ Alternative Flows:
 | Team Member | MVP Use Case |
 |-------------|--------------|
 | Lucy | Filter and search for events |
-| Name | Use Case |
+| Yuchen | Receive Personalized notification |
 | Name | Use Case |
 | Name | Use Case |
 
