@@ -25,6 +25,7 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- Gson for parsing JSON responses -->
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
