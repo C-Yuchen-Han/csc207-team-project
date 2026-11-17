@@ -163,7 +163,9 @@ the latitude and longitude coordinates.
 ### Entity 3
 
 
-(Add additional entities as needed.)
+### Entity 4:Report
+The entity includes information about a report submitted by a user, including the 
+report reason, an optional custom description, and the time the report is submitted.
 
 ---
 
