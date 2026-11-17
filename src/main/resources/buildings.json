@@ -1,0 +1,740 @@
+[
+  {
+    "buildingId": "utsg:facility:506",
+    "buildingName": "Annesley Hall",
+    "latitude": 43.6678211,
+    "longitude": -79.3929553
+  },
+  {
+    "buildingId": "utsg:facility:079",
+    "buildingName": "Anthropology Building",
+    "latitude": 43.6598666,
+    "longitude": -79.3984688
+  },
+  {
+    "buildingId": "utsg:facility:036",
+    "buildingName": "Astronomy & Astrophysics Building",
+    "latitude": 43.6606144,
+    "longitude": -79.3975463
+  },
+  {
+    "buildingId": "utsg:facility:080",
+    "buildingName": "Bahen Centre for Information Technology",
+    "latitude": 43.6596276,
+    "longitude": -79.3974546
+  },
+  {
+    "buildingId": "utsg:facility:057",
+    "buildingName": "Bancroft Building",
+    "latitude": 43.6609044,
+    "longitude": -79.3998989
+  },
+  {
+    "buildingId": "utsg:smc:BR",
+    "buildingName": "Brennan Hall",
+    "latitude": 43.6663915,
+    "longitude": -79.3897525
+  },
+  {
+    "buildingId": "utsg:facility:504",
+    "buildingName": "Burwash Hall",
+    "latitude": 43.6668577,
+    "longitude": -79.390967
+  },
+  {
+    "buildingId": "utsg:facility:011",
+    "buildingName": "C. David Naylor Building",
+    "latitude": 43.6603681,
+    "longitude": -79.3918819
+  },
+  {
+    "buildingId": "utsg:facility:138",
+    "buildingName": "Campus Community Co-operative Day Care",
+    "latitude": 43.664565,
+    "longitude": -79.4007868
+  },
+  {
+    "buildingId": "utsg:facility:047",
+    "buildingName": "Canadiana Gallery",
+    "latitude": 43.6619243,
+    "longitude": -79.3929487
+  },
+  {
+    "buildingId": "utsg:smc:CR",
+    "buildingName": "Carr Hall",
+    "latitude": 43.6652366,
+    "longitude": -79.3904459
+  },
+  {
+    "buildingId": "utsg:facility:018",
+    "buildingName": "Central Steam Plant",
+    "latitude": 43.6599975,
+    "longitude": -79.3978483
+  },
+  {
+    "buildingId": "utsg:facility:097A",
+    "buildingName": "Centre for Culture and Technology",
+    "latitude": 43.6643236,
+    "longitude": -79.3897697
+  },
+  {
+    "buildingId": "utsg:facility:110",
+    "buildingName": "Centre for Industrial Relations and Human Resources",
+    "latitude": 43.6666901,
+    "longitude": -79.3990926
+  },
+  {
+    "buildingId": "utsg:facility:068",
+    "buildingName": "Clara Benson Building",
+    "latitude": 43.6629832,
+    "longitude": -79.4002584
+  },
+  {
+    "buildingId": "utsg:facility:006A",
+    "buildingName": "Claude T. Bissell Building",
+    "latitude": 43.6650422,
+    "longitude": -79.3993309
+  },
+  {
+    "buildingId": "utsg:facility:010A",
+    "buildingName": "Convocation Hall",
+    "latitude": 43.6607846,
+    "longitude": -79.3954477
+  },
+  {
+    "buildingId": "utsg:facility:026",
+    "buildingName": "Cumberland House",
+    "latitude": 43.6594607,
+    "longitude": -79.395938
+  },
+  {
+    "buildingId": "utsg:facility:008A",
+    "buildingName": "D.L. Pratt Building",
+    "latitude": 43.6596233,
+    "longitude": -79.3948278
+  },
+  {
+    "buildingId": "utsg:facility:054",
+    "buildingName": "Daniels Building",
+    "latitude": 43.6596531,
+    "longitude": -79.4007089
+  },
+  {
+    "buildingId": "utsg:facility:053",
+    "buildingName": "Dr. Eric Jackman Institute of Child Study",
+    "latitude": 43.6696168,
+    "longitude": -79.4059016
+  },
+  {
+    "buildingId": "utsg:facility:514",
+    "buildingName": "E.J. Pratt Library",
+    "latitude": 43.6663204,
+    "longitude": -79.3912918
+  },
+  {
+    "buildingId": "utsg:facility:062",
+    "buildingName": "Earth Sciences Centre",
+    "latitude": 43.6607625,
+    "longitude": -79.3994946
+  },
+  {
+    "buildingId": "utsg:facility:083",
+    "buildingName": "Education Technology Office",
+    "latitude": 43.6585734,
+    "longitude": -79.393583
+  },
+  {
+    "buildingId": "utsg:facility:051",
+    "buildingName": "Edward Johnson Building",
+    "latitude": 43.6666086,
+    "longitude": -79.3945843
+  },
+  {
+    "buildingId": "utsg:facility:502",
+    "buildingName": "Emmanuel College",
+    "latitude": 43.6666914,
+    "longitude": -79.3926986
+  },
+  {
+    "buildingId": "utsg:facility:021",
+    "buildingName": "Engineering Annex",
+    "latitude": 43.6596064,
+    "longitude": -79.3954536
+  },
+  {
+    "buildingId": "utsg:facility:127",
+    "buildingName": "Enrolment Services",
+    "latitude": 43.6681008,
+    "longitude": -79.4004713
+  },
+  {
+    "buildingId": "utsg:facility:067",
+    "buildingName": "Enterprise Applications and Solutions Integration",
+    "latitude": 43.6591833,
+    "longitude": -79.398176
+  },
+  {
+    "buildingId": "utsg:facility:111",
+    "buildingName": "Factor-Inwentash Faculty of Social Work",
+    "latitude": 43.6683,
+    "longitude": -79.3977662
+  },
+  {
+    "buildingId": "utsg:facility:075",
+    "buildingName": "Faculty Club",
+    "latitude": 43.6611237,
+    "longitude": -79.4005379
+  },
+  {
+    "buildingId": "utsg:facility:171",
+    "buildingName": "Faculty of Information",
+    "latitude": 43.6582527,
+    "longitude": -79.3997365
+  },
+  {
+    "buildingId": "utsg:facility:098B",
+    "buildingName": "Faculty of Music South",
+    "latitude": 43.6641958,
+    "longitude": -79.3895876
+  },
+  {
+    "buildingId": "utsg:facility:098C",
+    "buildingName": "Faculty of Music South",
+    "latitude": 43.6641958,
+    "longitude": -79.3895876
+  },
+  {
+    "buildingId": "utsg:facility:050",
+    "buildingName": "Falconer Hall",
+    "latitude": 43.6667132,
+    "longitude": -79.393935
+  },
+  {
+    "buildingId": "utsg:facility:105",
+    "buildingName": "Fields Institute for Research in Mathematical Sciences",
+    "latitude": 43.6588023,
+    "longitude": -79.3975523
+  },
+  {
+    "buildingId": "utsg:facility:025",
+    "buildingName": "FitzGerald Building",
+    "latitude": 43.6600854,
+    "longitude": -79.3923805
+  },
+  {
+    "buildingId": "utsg:facility:106",
+    "buildingName": "Former University Women's Club House",
+    "latitude": 43.6670822,
+    "longitude": -79.4000275
+  },
+  {
+    "buildingId": "utsg:facility:082",
+    "buildingName": "Gage Building",
+    "latitude": 43.6582082,
+    "longitude": -79.3971724
+  },
+  {
+    "buildingId": "utsg:facility:070",
+    "buildingName": "Galbraith Building",
+    "latitude": 43.6599591,
+    "longitude": -79.3959681
+  },
+  {
+    "buildingId": "utsg:facility:603",
+    "buildingName": "George Ignatieff Theatre",
+    "latitude": 43.6658455,
+    "longitude": -79.3971192
+  },
+  {
+    "buildingId": "utsg:facility:602",
+    "buildingName": "Gerald Larkin Building",
+    "latitude": 43.6656731,
+    "longitude": -79.3969457
+  },
+  {
+    "buildingId": "utsg:facility:003",
+    "buildingName": "Gerstein Science Information Centre in the Sigmund Samuel Library",
+    "latitude": 43.6621022,
+    "longitude": -79.3936882
+  },
+  {
+    "buildingId": "utsg:facility:042",
+    "buildingName": "Goldring Centre for High Performance Sport",
+    "latitude": 43.6669768,
+    "longitude": -79.3983851
+  },
+  {
+    "buildingId": "utsg:facility:507",
+    "buildingName": "Goldring Student Centre",
+    "latitude": 43.667755,
+    "longitude": -79.392446
+  },
+  {
+    "buildingId": "utsg:facility:064",
+    "buildingName": "Graduate House",
+    "latitude": 43.6635971,
+    "longitude": -79.4017714
+  },
+  {
+    "buildingId": "utsg:facility:056",
+    "buildingName": "Graduate Students' Union",
+    "latitude": 43.6608113,
+    "longitude": -79.4003077
+  },
+  {
+    "buildingId": "utsg:facility:002",
+    "buildingName": "Hart House",
+    "latitude": 43.6639286,
+    "longitude": -79.3944903
+  },
+  {
+    "buildingId": "utsg:facility:024",
+    "buildingName": "Haultain Building",
+    "latitude": 43.6599224,
+    "longitude": -79.3936379
+  },
+  {
+    "buildingId": "utsg:facility:154",
+    "buildingName": "Health Sciences Building",
+    "latitude": 43.6590813,
+    "longitude": -79.3927636
+  },
+  {
+    "buildingId": "utsg:facility:132",
+    "buildingName": "Innis College",
+    "latitude": 43.6655889,
+    "longitude": -79.3995766
+  },
+  {
+    "buildingId": "utsg:facility:133",
+    "buildingName": "Innis College Student Residence",
+    "latitude": 43.6659437,
+    "longitude": -79.3987056
+  },
+  {
+    "buildingId": "utsg:facility:509",
+    "buildingName": "Isabel Bader Theatre",
+    "latitude": 43.6672504,
+    "longitude": -79.3923605
+  },
+  {
+    "buildingId": "utsg:facility:019",
+    "buildingName": "J. Robert S. Prichard Alumni House",
+    "latitude": 43.6620783,
+    "longitude": -79.3967632
+  },
+  {
+    "buildingId": "utsg:facility:128",
+    "buildingName": "Jackman Humanities Building",
+    "latitude": 43.6677073,
+    "longitude": -79.4003325
+  },
+  {
+    "buildingId": "utsg:facility:433",
+    "buildingName": "Jesuit Provincial Offices",
+    "latitude": 43.6645713,
+    "longitude": -79.3905521
+  },
+  {
+    "buildingId": "utsg:facility:006",
+    "buildingName": "John P. Robarts Library Building",
+    "latitude": 43.6644574,
+    "longitude": -79.3995262
+  },
+  {
+    "buildingId": "utsg:facility:146",
+    "buildingName": "Kinesiology & Physical Education Offices",
+    "latitude": 43.6650455,
+    "longitude": -79.4018715
+  },
+  {
+    "buildingId": "utsg:facility:575",
+    "buildingName": "Knox College",
+    "latitude": 43.6613788,
+    "longitude": -79.3966595
+  },
+  {
+    "buildingId": "utsg:facility:145",
+    "buildingName": "Koffler House",
+    "latitude": 43.6605939,
+    "longitude": -79.4006283
+  },
+  {
+    "buildingId": "utsg:facility:143",
+    "buildingName": "Koffler Student Services Centre",
+    "latitude": 43.6591374,
+    "longitude": -79.3969315
+  },
+  {
+    "buildingId": "utsg:facility:073",
+    "buildingName": "Lash Miller Chemical Laboratories",
+    "latitude": 43.6615233,
+    "longitude": -79.3980695
+  },
+  {
+    "buildingId": "utsg:facility:007",
+    "buildingName": "Lassonde Mining Building",
+    "latitude": 43.6595395,
+    "longitude": -79.393491
+  },
+  {
+    "buildingId": "utsg:facility:516",
+    "buildingName": "Law House",
+    "latitude": 43.6678138,
+    "longitude": -79.3898975
+  },
+  {
+    "buildingId": "utsg:facility:161",
+    "buildingName": "Leslie L. Dan Pharmacy Building",
+    "latitude": 43.6599495,
+    "longitude": -79.3917767
+  },
+  {
+    "buildingId": "utsg:facility:528",
+    "buildingName": "Lillian Massey Building",
+    "latitude": 43.6683914,
+    "longitude": -79.3935654
+  },
+  {
+    "buildingId": "utsg:facility:120",
+    "buildingName": "Louis B. Stewart Observatory",
+    "latitude": 43.663177,
+    "longitude": -79.3946359
+  },
+  {
+    "buildingId": "utsg:facility:091",
+    "buildingName": "Luella Massey Studio Theatre",
+    "latitude": 43.6643573,
+    "longitude": -79.4011326
+  },
+  {
+    "buildingId": "utsg:facility:508",
+    "buildingName": "Margaret Addison Hall",
+    "latitude": 43.6681943,
+    "longitude": -79.3924441
+  },
+  {
+    "buildingId": "utsg:facility:034",
+    "buildingName": "Massey College",
+    "latitude": 43.664857,
+    "longitude": -79.3975151
+  },
+  {
+    "buildingId": "utsg:facility:104",
+    "buildingName": "Max Gluskin House",
+    "latitude": 43.6660919,
+    "longitude": -79.3997838
+  },
+  {
+    "buildingId": "utsg:facility:078",
+    "buildingName": "McLennan Physical Laboratories",
+    "latitude": 43.6608087,
+    "longitude": -79.3984152
+  },
+  {
+    "buildingId": "utsg:facility:004",
+    "buildingName": "McMurrich Building",
+    "latitude": 43.6612629,
+    "longitude": -79.3929324
+  },
+  {
+    "buildingId": "utsg:facility:022",
+    "buildingName": "Mechanical Engineering Building",
+    "latitude": 43.660104,
+    "longitude": -79.3938954
+  },
+  {
+    "buildingId": "utsg:facility:005",
+    "buildingName": "Medical Sciences Building",
+    "latitude": 43.6607755,
+    "longitude": -79.3935174
+  },
+  {
+    "buildingId": "utsg:facility:101",
+    "buildingName": "Morrison Hall",
+    "latitude": 43.6631115,
+    "longitude": -79.3974358
+  },
+  {
+    "buildingId": "utsg:smc:AH",
+    "buildingName": "Muzzo Family Alumni Hall",
+    "latitude": 43.6647644,
+    "longitude": -79.3901184
+  },
+  {
+    "buildingId": "utsg:facility:087",
+    "buildingName": "Myhal Centre for Engineering Innovation and Entrepreneurship",
+    "latitude": 43.6607639,
+    "longitude": -79.3965356
+  },
+  {
+    "buildingId": "utsg:facility:122",
+    "buildingName": "North West Chiller Plant",
+    "latitude": 43.6650791,
+    "longitude": -79.4022956
+  },
+  {
+    "buildingId": "utsg:facility:515",
+    "buildingName": "Northrop Frye Hall",
+    "latitude": 43.6664131,
+    "longitude": -79.3921442
+  },
+  {
+    "buildingId": "utsg:facility:179",
+    "buildingName": "Oddfellows Hall",
+    "latitude": 43.65807,
+    "longitude": -79.3974291
+  },
+  {
+    "buildingId": "utsg:facility:123",
+    "buildingName": "Ontario Institute for Studies in Education",
+    "latitude": 43.6684389,
+    "longitude": -79.398679
+  },
+  {
+    "buildingId": "utsg:facility:027",
+    "buildingName": "Physical Geography Building",
+    "latitude": 43.6603572,
+    "longitude": -79.3965022
+  },
+  {
+    "buildingId": "utsg:facility:055",
+    "buildingName": "President's Residence",
+    "latitude": 43.6812155,
+    "longitude": -79.375358
+  },
+  {
+    "buildingId": "utsg:facility:125",
+    "buildingName": "R. Ramsay Wright House",
+    "latitude": 43.6657253,
+    "longitude": -79.4027265
+  },
+  {
+    "buildingId": "utsg:facility:072",
+    "buildingName": "Ramsay Wright Laboratories",
+    "latitude": 43.6632118,
+    "longitude": -79.398998
+  },
+  {
+    "buildingId": "utsg:facility:478",
+    "buildingName": "Regis College",
+    "latitude": 43.6640044,
+    "longitude": -79.390268
+  },
+  {
+    "buildingId": "utsg:facility:152",
+    "buildingName": "Rehabilitation Sciences Building",
+    "latitude": 43.6554488,
+    "longitude": -79.3891627
+  },
+  {
+    "buildingId": "utsg:facility:191",
+    "buildingName": "Richard Purdom House",
+    "latitude": 43.6572035,
+    "longitude": -79.3923911
+  },
+  {
+    "buildingId": "utsg:facility:006C",
+    "buildingName": "Robarts Common",
+    "latitude": 43.6643041,
+    "longitude": -79.400047
+  },
+  {
+    "buildingId": "utsg:facility:020",
+    "buildingName": "Rosebrugh Building",
+    "latitude": 43.6600639,
+    "longitude": -79.3932595
+  },
+  {
+    "buildingId": "utsg:facility:134",
+    "buildingName": "Rotman School of Management",
+    "latitude": 43.6648135,
+    "longitude": -79.3981789
+  },
+  {
+    "buildingId": "utsg:facility:518",
+    "buildingName": "Rowell Jackman Hall",
+    "latitude": 43.6674481,
+    "longitude": -79.3907976
+  },
+  {
+    "buildingId": "utsg:facility:103",
+    "buildingName": "School of Continuing Studies",
+    "latitude": 43.6667118,
+    "longitude": -79.3999688
+  },
+  {
+    "buildingId": "utsg:facility:033",
+    "buildingName": "Sidney Smith Hall",
+    "latitude": 43.662482,
+    "longitude": -79.3986841
+  },
+  {
+    "buildingId": "utsg:facility:010",
+    "buildingName": "Simcoe Hall",
+    "latitude": 43.6607423,
+    "longitude": -79.3959502
+  },
+  {
+    "buildingId": "utsg:facility:029",
+    "buildingName": "Sir Daniel Wilson Residence",
+    "latitude": 43.6624572,
+    "longitude": -79.3973126
+  },
+  {
+    "buildingId": "utsg:facility:102",
+    "buildingName": "Soldiers' Tower",
+    "latitude": 43.6635443,
+    "longitude": -79.3952211
+  },
+  {
+    "buildingId": "utsg:facility:608",
+    "buildingName": "St. Hilda's College",
+    "latitude": 43.6657168,
+    "longitude": -79.3979433
+  },
+  {
+    "buildingId": "utsg:facility:513",
+    "buildingName": "Stephenson House",
+    "latitude": 43.6678314,
+    "longitude": -79.3898146
+  },
+  {
+    "buildingId": "utsg:facility:192",
+    "buildingName": "Stewart Building",
+    "latitude": 43.6592112,
+    "longitude": -79.3919931
+  },
+  {
+    "buildingId": "utsg:facility:028",
+    "buildingName": "Student Commons",
+    "latitude": 43.658662,
+    "longitude": -79.3980178
+  },
+  {
+    "buildingId": "utsg:facility:077",
+    "buildingName": "Sussex Court",
+    "latitude": 43.6648584,
+    "longitude": -79.400954
+  },
+  {
+    "buildingId": "utsg:smc:TF",
+    "buildingName": "Teefy Hall",
+    "latitude": 43.6653671,
+    "longitude": -79.3908032
+  },
+  {
+    "buildingId": "utsg:facility:160",
+    "buildingName": "Terrence Donnelly Centre for Cellular & Biomolecular Research",
+    "latitude": 43.6601393,
+    "longitude": -79.3929311
+  },
+  {
+    "buildingId": "utsg:facility:006B",
+    "buildingName": "Thomas Fisher Rare Book Library Building",
+    "latitude": 43.6640825,
+    "longitude": -79.3989879
+  },
+  {
+    "buildingId": "utsg:facility:434",
+    "buildingName": "Toronto School of Theology",
+    "latitude": 43.6647705,
+    "longitude": -79.3906227
+  },
+  {
+    "buildingId": "utsg:facility:088",
+    "buildingName": "Transitional Year Programme",
+    "latitude": 43.6669026,
+    "longitude": -79.3992253
+  },
+  {
+    "buildingId": "utsg:facility:600",
+    "buildingName": "Trinity College",
+    "latitude": 43.6653966,
+    "longitude": -79.3957848
+  },
+  {
+    "buildingId": "utsg:facility:001",
+    "buildingName": "University College",
+    "latitude": 43.662902,
+    "longitude": -79.395782
+  },
+  {
+    "buildingId": "utsg:facility:023",
+    "buildingName": "University College Union",
+    "latitude": 43.6633952,
+    "longitude": -79.397553
+  },
+  {
+    "buildingId": "utsg:facility:791",
+    "buildingName": "University Family Housing — C2",
+    "latitude": 43.6680539,
+    "longitude": -79.3875296
+  },
+  {
+    "buildingId": "utsg:facility:014",
+    "buildingName": "University of Toronto Schools",
+    "latitude": 43.6665544,
+    "longitude": -79.4023256
+  },
+  {
+    "buildingId": "utsg:facility:041",
+    "buildingName": "Varsity Pavilion",
+    "latitude": 43.6663494,
+    "longitude": -79.3967761
+  },
+  {
+    "buildingId": "utsg:facility:501",
+    "buildingName": "Victoria College",
+    "latitude": 43.6669349,
+    "longitude": -79.3919581
+  },
+  {
+    "buildingId": "utsg:facility:008",
+    "buildingName": "Wallberg Building",
+    "latitude": 43.6591779,
+    "longitude": -79.3952807
+  },
+  {
+    "buildingId": "utsg:facility:068A",
+    "buildingName": "Warren Stevens Building",
+    "latitude": 43.6627574,
+    "longitude": -79.401031
+  },
+  {
+    "buildingId": "utsg:facility:032",
+    "buildingName": "Wetmore Hall-New College",
+    "latitude": 43.6622122,
+    "longitude": -79.4003035
+  },
+  {
+    "buildingId": "utsg:facility:013",
+    "buildingName": "Whitney Hall",
+    "latitude": 43.663805,
+    "longitude": -79.3978064
+  },
+  {
+    "buildingId": "utsg:facility:032A",
+    "buildingName": "Wilson Hall-New College",
+    "latitude": 43.6618049,
+    "longitude": -79.4008036
+  },
+  {
+    "buildingId": "utsg:facility:038",
+    "buildingName": "Woodsworth College",
+    "latitude": 43.6666019,
+    "longitude": -79.3988039
+  },
+  {
+    "buildingId": "utsg:facility:130",
+    "buildingName": "Woodsworth College Residence",
+    "latitude": 43.6673159,
+    "longitude": -79.3991802
+  },
+  {
+    "buildingId": "utsg:facility:675",
+    "buildingName": "Wycliffe College",
+    "latitude": 43.6644931,
+    "longitude": -79.3949947
+  }
+]
