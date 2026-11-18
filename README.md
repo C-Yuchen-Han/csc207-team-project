@@ -48,6 +48,9 @@ As a UofT student, I want to post some free food events on campus, so that other
 events and enjoy free food.
 
 ### User Story 4
+As a UofT student, I want to report a Food Alert when I notice an issue with its food status or information, so that other users
+can stay informed about its current availability. I also want Food Alerts to be automatically removed from active listings after
+two hours, so that I do not see outdated food offers.
 
 ---
 
@@ -132,9 +135,80 @@ Alternative Flows:
 2. Invalid expiration time: The system displays message that expiration time must be in the future and not create the event.
 
 
-### Use Case 4
+### Use Case 4:Report a Food Alert
+Primary Actor: Uoft Students
+Preconditions:
+The Food Alert exists in the system.
+The Food Alert is currently visible to the user.
+Trigger:
+The user notices an issue with a Food Alert and decides to report it.
+Main Success Scenario:
 
-(Add additional use cases as needed.)
+1. The user opens a Food Alert.
+
+2. The user selects the "Report" option.
+
+3. The system displays three report reasons: Incorrect food information, No longer available, Other
+
+4. The user selects a report reason.
+
+5. If the user selects "Other", the system allows the user to enter a custom reason.
+
+6. The user submits the report.
+
+7. The system validates the submitted report.
+
+8. The system creates and saves a Report associated with the Food Alert.
+
+9. The system updates the Food Alert status to REPORTED.
+
+10. The system displays a confirmation message.
+
+11. The Food Alert remains visible to other users.
+Extensions:
+4a. The user selects "Other" but does not provide a reason, then submitted it.
+   4a1. The system displays an error message and asks the user to enter a reason.
+Postconditions:
+A Report record is stored and associated with the Food Alert.
+
+The Food Alert status is updated to REPORTED.
+
+The original Food Alert information remains unchanged.
+
+The Food Alert remains visible to other users.
+
+### Use Case 5:Automatically Expire a Food Alert
+Primary Actor: System
+Preconditions:
+
+The Food Alert has been successfully published.
+
+The Food Alert has a recorded publication time.
+
+The Food Alert is currently in the active listings.
+Trigger:
+Two hours have passed since the Food Alert was published.
+
+Main Success Scenario:
+The system checks the publication time of active Food Alerts.
+
+The system compares each Food Alert's publication time with the current time.
+
+The system identifies Food Alerts that have been published for two hours or longer.
+
+The system removes the identified Food Alerts from the active listings.
+
+Extensions:
+
+3a. Less than two hours have passed since the Food Alert was published.
+
+   3a1. The Food Alert remains in the active listings.
+
+3b. The Food Alert has already been removed from the active listings.
+
+   3b1. The system skips the Food Alert.
+Postconditions:
+The Food Alert is no longer displayed in active listings.
 
 ---
 
