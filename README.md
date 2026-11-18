@@ -40,8 +40,12 @@ such as food type, location, and registration requirements, so that I can quickl
 to my preferences.
 
 ### User Story 2
+As a UofT student, I want to set my notification preferences in advance and receive an in-app notification with the event’s
+information when a newly published free food event matches my saved preferences, so that I do not miss relevant free food opportunities.
 
 ### User Story 3
+As a UofT student, I want to post some free food events on campus, so that other students can discover and participate in these 
+events and enjoy free food.
 
 ### User Story 4
 
@@ -74,8 +78,61 @@ Alternative Flows:
 
 
 ### Use Case 2
+1. The student opens the notification page.
+
+2. The system shows the available options and the student’s current preferences (if any).
+   
+3. The student selects their preference.
+
+4. The student asks to save the preferences.
+  
+5. The system saves the preferences and confirms to the student that they are saved.
+
+6. Later, a new free food event is published. The system checks the event against the saved preferences of the student.
+
+7. The system adds an unread notification with the event’s information to the notification the student.
+
+8. The student sees the new notification in their notifications list.
+
+
+Alternative Flows:
+
+4a. The user leaves without saving the preferences.
+The system keeps the previous preferences unchanged.
+New events are still checked against the previous preferences, and the use case continues at step 6.
+
+
+6a. The user has no saved preferences.
+The system does not match the event with the user, so no notification is added.
+The user’s notification list stays empty, and the use case ends.
+
 
 ### Use Case 3
+Main Success Scenario:
+
+1. The student opens the Create Food Event page.
+
+2. The student enters event title, description, location, food types, related subjects, registration requirement,
+and expiration time.
+
+3. The student submits the form.
+
+4. The system validates the input information.
+
+5. The system generates a unique event ID and records the creation time.
+
+6. The system creates and saves the FoodEvent.
+
+7. The system displays a success message.
+
+Alternative Flows:
+
+1. Invalid input: The system displays message that title cannot be empty or location is required, and does not create the event.
+
+2. Invalid expiration time: The system displays message that expiration time must be in the future and not create the event.
+
+
+### Use Case 4
 
 (Add additional use cases as needed.)
 
@@ -86,8 +143,8 @@ Alternative Flows:
 | Team Member | MVP Use Case |
 |-------------|--------------|
 | Lucy | Filter and search for events |
-| Name | Use Case |
-| Name | Use Case |
+| Yuchen | Receive Personalized notification |
+| Cynthia | Create and publish an event |
 | Name | Use Case |
 
 
