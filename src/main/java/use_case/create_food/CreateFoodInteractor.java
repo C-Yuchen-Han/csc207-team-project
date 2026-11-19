@@ -5,11 +5,20 @@ import entity.FoodEvent;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
+/**
+ * Interactor responsible for creating food events.
+ */
 public class CreateFoodInteractor implements CreateFoodInputBoundary {
 
     private final CreateFoodDataAccessInterface dataAccess;
     private final CreateFoodOutputBoundary presenter;
 
+    /**
+     * Construct a CreateFoodInteractor object.
+     *
+     * @param dataAccess the interface used to save food events
+     * @param presenter the output boundary for handling success or failure
+     */
     public CreateFoodInteractor(
             CreateFoodDataAccessInterface dataAccess,
             CreateFoodOutputBoundary presenter) {
@@ -17,6 +26,11 @@ public class CreateFoodInteractor implements CreateFoodInputBoundary {
         this.presenter = presenter;
     }
 
+    /**
+     * Validates the input information, creates and saves a new food event.
+     *
+     * @param inputData the information needed to create a food event
+     */
     @Override
     public void execute(CreateFoodInputData inputData) {
 
