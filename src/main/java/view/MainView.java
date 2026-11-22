@@ -1,7 +1,16 @@
 package view;
 
-import java.awt.*;
-import javax.swing.*;
+import java.awt.BorderLayout;
+import java.awt.CardLayout;
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.Font;
+import javax.swing.BorderFactory;
+import javax.swing.Box;
+import javax.swing.BoxLayout;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
 
 /**
  * Main view containing navigation and use case pages.
@@ -26,16 +35,18 @@ public class MainView extends JPanel {
     sidebar.setBackground(new Color(240, 242, 245));
     sidebar.setBorder(BorderFactory.createEmptyBorder(20, 12, 20, 12));
 
-    JButton discoverButton = new JButton("Discover");
-    JButton publishButton = new JButton("Input Food");
-    JButton notificationsButton = new JButton("Notifications");
-    JButton reportsButton = new JButton("Reports");
-
     Dimension buttonSize = new Dimension(160, 40);
 
+    JButton discoverButton = new JButton("Discover");
     discoverButton.setMaximumSize(buttonSize);
+
+    JButton publishButton = new JButton("Input Food");
     publishButton.setMaximumSize(buttonSize);
+
+    JButton notificationsButton = new JButton("Notifications");
     notificationsButton.setMaximumSize(buttonSize);
+
+    JButton reportsButton = new JButton("Reports");
     reportsButton.setMaximumSize(buttonSize);
 
     JLabel appTitle = new JLabel("FreeFood!");
