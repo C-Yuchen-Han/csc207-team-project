@@ -12,81 +12,103 @@ import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-/**
- * Main view containing navigation and use case pages.
- */
+/** Main application view with a navigation sidebar. */
 public class MainView extends JPanel {
+  private static final Color SIDEBAR_COLOR = new Color(231, 240, 253);
+  private static final Color NAVY = new Color(22, 40, 78);
+  private static final Color BLUE = new Color(45, 120, 235);
+  private static final String DISCOVER = "discover";
+  private static final String PUBLISH = "publish";
+  private static final String NOTIFICATIONS = "notifications";
+  private static final String REPORTS = "reports";
 
   private final CardLayout cardLayout = new CardLayout();
   private final JPanel contentPanel = new JPanel(cardLayout);
 
   /**
-   * Constructs the main application view.
+   * Constructs the main view.
    *
    * @param browseFoodView the browse food page
    */
   public MainView(JPanel browseFoodView) {
     setLayout(new BorderLayout());
+    contentPanel.add(browseFoodView, DISCOVER);
+    contentPanel.add(createPlaceholder("Input Food"), PUBLISH);
+    contentPanel.add(createPlaceholder("Notifications"), NOTIFICATIONS);
+    contentPanel.add(createPlaceholder("Reports"), REPORTS);
+    add(createSidebar(), BorderLayout.WEST);
+    add(contentPanel, BorderLayout.CENTER);
+    cardLayout.show(contentPanel, DISCOVER);
+  }
 
+  private JPanel createSidebar() {
     JPanel sidebar = new JPanel();
     sidebar.setLayout(new BoxLayout(sidebar, BoxLayout.Y_AXIS));
-
-    sidebar.setPreferredSize(new Dimension(190, 0));
-    sidebar.setBackground(new Color(240, 242, 245));
-    sidebar.setBorder(BorderFactory.createEmptyBorder(20, 12, 20, 12));
-
-    Dimension buttonSize = new Dimension(160, 40);
-
-    JButton discoverButton = new JButton("Discover");
-    discoverButton.setMaximumSize(buttonSize);
-
-    JButton publishButton = new JButton("Input Food");
-    publishButton.setMaximumSize(buttonSize);
-
-    JButton notificationsButton = new JButton("Notifications");
-    notificationsButton.setMaximumSize(buttonSize);
-
-    JButton reportsButton = new JButton("Reports");
-    reportsButton.setMaximumSize(buttonSize);
+    sidebar.setBackground(SIDEBAR_COLOR);
+    sidebar.setPreferredSize(new Dimension(205, 0));
+    sidebar.setBorder(BorderFactory.createEmptyBorder(25, 15, 20, 15));
 
     JLabel appTitle = new JLabel("FreeFood!");
-    appTitle.setFont(new Font("SansSerif", Font.BOLD, 20));
-
+    appTitle.setFont(new Font("SansSerif", Font.BOLD, 25));
+    appTitle.setForeground(NAVY);
+    appTitle.setAlignmentX(LEFT_ALIGNMENT);
     sidebar.add(appTitle);
-    sidebar.add(Box.createVerticalStrut(25));
+    sidebar.add(Box.createVerticalStrut(35));
 
-    sidebar.add(discoverButton);
-    sidebar.add(Box.createVerticalStrut(12));
+    JButton discoverButton = createNavButton("Discover", true);
+    JButton publishButton = createNavButton("Input Food", false);
+    JButton notificationsButton = createNavButton("Notifications", false);
+    JButton reportsButton = createNavButton("Reports", false);
+    JButton[] buttons = {
+        discoverButton, publishButton, notificationsButton, reportsButton
+    };
 
-    sidebar.add(publishButton);
-    sidebar.add(Box.createVerticalStrut(12));
-
-    sidebar.add(notificationsButton);
-    sidebar.add(Box.createVerticalStrut(12));
-
-    sidebar.add(reportsButton);
-
-    add(sidebar, BorderLayout.WEST);
-
-    contentPanel.add(browseFoodView, "DISCOVER");
-
-    // Temporary placeholders for unfinished use cases.
-    contentPanel.add(new JPanel(), "PUBLISH");
-    contentPanel.add(new JPanel(), "NOTIFICATIONS");
-    contentPanel.add(new JPanel(), "REPORTS");
-
-    add(contentPanel, BorderLayout.CENTER);
-
-    discoverButton.addActionListener(event ->
-        cardLayout.show(contentPanel, "DISCOVER"));
-
-    publishButton.addActionListener(event ->
-        cardLayout.show(contentPanel, "PUBLISH"));
-
+    discoverButton.addActionListener(event -> navigate(DISCOVER, discoverButton, buttons));
+    publishButton.addActionListener(event -> navigate(PUBLISH, publishButton, buttons));
     notificationsButton.addActionListener(event ->
-        cardLayout.show(contentPanel, "NOTIFICATIONS"));
+        navigate(NOTIFICATIONS, notificationsButton, buttons));
+    reportsButton.addActionListener(event -> navigate(REPORTS, reportsButton, buttons));
 
-    reportsButton.addActionListener(event ->
-        cardLayout.show(contentPanel, "REPORTS"));
+    for (JButton button : buttons) {
+      sidebar.add(button);
+      sidebar.add(Box.createVerticalStrut(12));
+    }
+    return sidebar;
+  }
+
+  private JButton createNavButton(String text, boolean selected) {
+    JButton button = new JButton(text);
+    button.setFont(new Font("SansSerif", Font.BOLD, 14));
+    button.setAlignmentX(LEFT_ALIGNMENT);
+    button.setMaximumSize(new Dimension(Integer.MAX_VALUE, 44));
+    button.setPreferredSize(new Dimension(175, 44));
+    button.setFocusPainted(false);
+    button.setOpaque(true);
+    button.setBorder(BorderFactory.createEmptyBorder(10, 12, 10, 12));
+    styleNavButton(button, selected);
+    return button;
+  }
+
+  private void styleNavButton(JButton button, boolean selected) {
+    button.setBackground(selected ? BLUE : Color.WHITE);
+    button.setForeground(selected ? Color.WHITE : NAVY);
+  }
+
+  private void navigate(String page, JButton selectedButton, JButton[] buttons) {
+    cardLayout.show(contentPanel, page);
+    for (JButton button : buttons) {
+      styleNavButton(button, button == selectedButton);
+    }
+  }
+
+  private JPanel createPlaceholder(String title) {
+    JPanel panel = new JPanel(new BorderLayout());
+    panel.setBackground(new Color(245, 248, 253));
+    JLabel label = new JLabel(title);
+    label.setFont(new Font("SansSerif", Font.BOLD, 24));
+    label.setForeground(NAVY);
+    label.setHorizontalAlignment(JLabel.CENTER);
+    panel.add(label, BorderLayout.CENTER);
+    return panel;
   }
 }

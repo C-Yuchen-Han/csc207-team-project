@@ -1,29 +1,30 @@
 package view;
 
-import java.awt.BorderLayout;
 import javax.swing.JFrame;
-import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
+import javax.swing.UIManager;
+import view.browse_food.BrowseFoodView;
 
-/**
- * Temporary preview for the main application view.
- */
-public class MainViewPreview {
+/** Runs the Swing UI without compiling unfinished team features. */
+public final class MainViewPreview {
+  private MainViewPreview() {
+  }
 
   /**
-   * Launches the UI preview.
+   * Starts the preview.
    *
    * @param args command-line arguments
    */
   public static void main(String[] args) {
+    try {
+      UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName());
+    } catch (Exception exception) {
+      exception.printStackTrace();
+    }
+
     SwingUtilities.invokeLater(() -> {
       JFrame frame = new JFrame("FreeFood Tracker");
-
-      JPanel browsePlaceholder = new JPanel(new BorderLayout());
-
-      MainView mainView = new MainView(browsePlaceholder);
-
-      frame.setContentPane(mainView);
+      frame.setContentPane(new MainView(new BrowseFoodView()));
       frame.setSize(1000, 650);
       frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
       frame.setLocationRelativeTo(null);
