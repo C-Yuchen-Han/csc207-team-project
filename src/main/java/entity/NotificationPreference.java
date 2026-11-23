@@ -2,7 +2,6 @@ package entity;
 
 import java.util.Set;
 
-
 public class NotificationPreference {
     private final String userId;
     private final Set<FoodType> foodTypes;

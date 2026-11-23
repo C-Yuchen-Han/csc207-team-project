@@ -2,6 +2,7 @@ package entity;
 
 import java.time.LocalDateTime;
 
+
 public class Notification {
     private final String notificationId;
     private final String userId;
