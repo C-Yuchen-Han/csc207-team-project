@@ -5,7 +5,6 @@ import java.time.LocalDateTime;
 
 public class Notification {
     private final String notificationId;
-    private final String userId;
     private final String eventId;
     private final String eventTitle;
     private final LocalDateTime createdAt;
@@ -13,13 +12,11 @@ public class Notification {
 
     public Notification(
             String notificationId,
-            String userId,
             String eventId,
             String eventTitle,
             LocalDateTime createdAt) {
 
         this.notificationId = notificationId;
-        this.userId = userId;
         this.eventId = eventId;
         this.eventTitle = eventTitle;
         this.createdAt = createdAt;
@@ -28,10 +25,6 @@ public class Notification {
 
     public String getNotificationId() {
         return notificationId;
-    }
-
-    public String getUserId() {
-        return userId;
     }
 
     public String getEventId() {
