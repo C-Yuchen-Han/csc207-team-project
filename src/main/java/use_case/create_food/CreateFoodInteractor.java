@@ -1,6 +1,7 @@
 package use_case.create_food;
 
 import entity.FoodEvent;
+import use_case.generate_notification.GenerateNotificationInteractor;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
@@ -12,18 +13,22 @@ public class CreateFoodInteractor implements CreateFoodInputBoundary {
 
     private final CreateFoodDataAccessInterface dataAccess;
     private final CreateFoodOutputBoundary presenter;
+    private final GenerateNotificationInteractor notificationInteractor;
 
     /**
      * Construct a CreateFoodInteractor object.
      *
      * @param dataAccess the interface used to save food events
      * @param presenter the output boundary for handling success or failure
+     * @param notificationInteractor the interactor used to generate notifications
      */
     public CreateFoodInteractor(
             CreateFoodDataAccessInterface dataAccess,
-            CreateFoodOutputBoundary presenter) {
+            CreateFoodOutputBoundary presenter,
+            GenerateNotificationInteractor notificationInteractor) {
         this.dataAccess = dataAccess;
         this.presenter = presenter;
+        this.notificationInteractor = notificationInteractor;
     }
 
     /**
@@ -76,6 +81,9 @@ public class CreateFoodInteractor implements CreateFoodInputBoundary {
 
         // Save the event
         dataAccess.save(event);
+
+        // Generate notification
+        notificationInteractor.generateNotification(event);
 
         // Return success result
         CreateFoodOutputData outputData =
